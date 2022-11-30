@@ -1,14 +1,16 @@
 # Setup
-title:               Mark's homepage
-tagline:             'A Journey'
+title:               Mark Liao
+tagline:             'A Journey from Physics to Engineering'
+description:         'A blog that records things I learn'
 url:                 https://slliao.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
+excerpt_separator:  '<!-- more -->'
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Mark Liao
   url:               https://slliao,github.io
   email:             mark.slliao@gmail.com
 
@@ -19,5 +21,4 @@ plugins:
 # Custom vars
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
-excerpt_separator:  '<!-- more -->'
 

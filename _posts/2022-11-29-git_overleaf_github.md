@@ -1,6 +1,7 @@
 ---
 layout: post
 title: git + overleaf + github
+Tags: [LaTeX, Github]
 ---
 
 ### Regular Workflow
