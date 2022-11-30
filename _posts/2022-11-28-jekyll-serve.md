@@ -1,11 +1,8 @@
 ---
 layout: post
-title: 'Demo page'
-tags: DEMO
+title: 'Jekyll with GitHub'
+tags: [Jekyll, GitHub]
 ---
-
-Welcome to this demo blog!
-
 To start Jekyll with Bundler
 ``` 
 bundle exec jekyll serve

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: git + overleaf + github
-tags: [LaTeX,GitHub]
+tags: [LaTeX, GitHub]
 ---
 
 ### Regular Workflow
@@ -11,6 +11,8 @@ tags: [LaTeX,GitHub]
 git pull overleaf master
 git push github master
 ```
+<!-- more -->
+
 Any changes you made on overleaf should now be on both your local repo and on Github!
 
 If you want to make changes via your local repo, just push to both remote repos (after staging and committing locally):
@@ -21,10 +23,6 @@ git commit -m "Adding stuff from local repo"
 git push overleaf master
 git push github master
 ```
-
-
-<!-- more -->
-
 ### Setup
 
 #### Connect Overleaf and your local repo

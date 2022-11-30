@@ -6,7 +6,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.tags %}
       {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">
+      <a href="{{ site.baseurl }}/Tags/#{{ tag | slugify }}" class="post-tag">
           {{ tag }} 
       </a>
       {% endfor %}
