@@ -12,21 +12,9 @@ title: Home
       </a>
     </h1>
 
-    {% if page.tags %}
-      {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">
-          {{ tag }} 
-      </a>
-      {% endfor %}
-    {% endif %}
-    <br/><br/>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    {{ post.excerpt }}
-    <a href="{{ site.baseurl }}{{ post.url }}">
-    Read More ...
-    </a>
 
+    {{ post.content }}
   </div>
   {% endfor %}
 </div>
